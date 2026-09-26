@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "status": "PLATFORM_DRAFT",
+  "tools": [
+    {
+      "id": "working_capital",
+      "name_en": "Working Capital Finance",
+      "name_fa": "تأمین مالی سرمایه در گردش"
+    },
+    {
+      "id": "factoring",
+      "name_en": "Factoring",
+      "name_fa": "فاکتورینگ"
+    },
+    {
+      "id": "scf",
+      "name_en": "Supply Chain Finance",
+      "name_fa": "تأمین مالی زنجیره‌ای"
+    },
+    {
+      "id": "sukuk",
+      "name_en": "Sukuk",
+      "name_fa": "صکوک"
+    },
+    {
+      "id": "equity",
+      "name_en": "Equity",
+      "name_fa": "تأمین مالی سرمایه‌ای"
+    },
+    {
+      "id": "crowdfunding",
+      "name_en": "Crowdfunding",
+      "name_fa": "تأمین مالی جمعی"
+    },
+    {
+      "id": "guarantee",
+      "name_en": "Guarantee",
+      "name_fa": "ضمانت"
+    }
+  ]
+}

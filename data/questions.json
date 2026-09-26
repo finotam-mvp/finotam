@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "questions": [
+    {
+      "id": "revenue",
+      "label_en": "Annual Revenue",
+      "label_fa": "فروش سالانه",
+      "type": "number"
+    },
+    {
+      "id": "cogs",
+      "label_en": "COGS",
+      "label_fa": "بهای تمام‌شده",
+      "type": "number"
+    },
+    {
+      "id": "dso",
+      "label_en": "DSO",
+      "label_fa": "روز وصول مطالبات",
+      "type": "number"
+    },
+    {
+      "id": "dio",
+      "label_en": "DIO",
+      "label_fa": "روز نگهداری موجودی",
+      "type": "number"
+    },
+    {
+      "id": "dpo",
+      "label_en": "DPO",
+      "label_fa": "روز پرداخت بدهی",
+      "type": "number"
+    },
+    {
+      "id": "cash",
+      "label_en": "Cash",
+      "label_fa": "وجه نقد",
+      "type": "number"
+    }
+  ]
+}

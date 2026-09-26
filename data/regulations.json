@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "status": "DRAFT",
+  "records": [],
+  "required_fields": [
+    "regulation_id",
+    "title",
+    "provision",
+    "source_url",
+    "version",
+    "valid_from",
+    "valid_to",
+    "verification_status"
+  ]
+}

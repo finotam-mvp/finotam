@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "status": "DRAFT",
+  "rules": [
+    {
+      "id": "MODEL_WC_001",
+      "type": "calculation",
+      "source_type": "MODEL",
+      "formula": "AR=Revenue/365*DSO; Inventory=COGS/365*DIO; AP=COGS/365*DPO; NWC=AR+Inventory-AP; CCC=DSO+DIO-DPO"
+    },
+    {
+      "id": "ELIGIBILITY_PLACEHOLDER_001",
+      "type": "eligibility",
+      "source_type": "PLATFORM_DRAFT",
+      "description": "Replace with verified official rule before production."
+    }
+  ]
+}
