@@ -1,0 +1,6 @@
+{
+  "name": "سیگنال بازار",
+  "description": "دستیار جامع پایش بازار طلا، سکه، ارز، بورس ایران، هشدار قیمت و ابزارهای تحلیل و برنامه‌ریزی تأمین مالی کسب‌وکارها",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

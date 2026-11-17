@@ -1,23 +1,20 @@
-# FINOTAM MVP
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-نسخه استاتیک MVP پلتفرم هوشمندی و تصمیم‌یار تأمین مالی.
+# Run and deploy your AI Studio app
 
-## مسیر اصلی
-Need → Capacity → Eligibility → Match → Pricing → Offer → Application → Underwriting → Approval → Closing → Funding → Servicing → Monitoring
+This contains everything you need to run your app locally.
 
-## اجرا
-فایل `index.html` را در مرورگر باز کنید. پروژه بدون وابستگی خارجی ساخته شده و برای انتشار استاتیک روی GitHub Pages یا Vercel مناسب است.
+View your app in AI Studio: https://ai.studio/apps/f26689c1-9b80-406b-891a-e39ce9b5d798
 
-## وضعیت داده‌ها
-فایل‌های قوانین، مقررات، گرنت‌ها و شرایط ابزارها در وضعیت DRAFT هستند. پیش از استفاده عملیاتی باید با منابع رسمی، نسخه، تاریخ اعتبار و مستندات تکمیل و راستی‌آزمایی شوند.
+## Run Locally
 
-## موتور سرمایه در گردش
-فرمول‌های نسخه اولیه:
-- AR = Revenue / 365 × DSO
-- Inventory = COGS / 365 × DIO
-- AP = COGS / 365 × DPO
-- NWC = AR + Inventory − AP
-- CCC = DSO + DIO − DPO
-- Modeled Funding Gap = max(0, NWC − Cash)
+**Prerequisites:**  Node.js
 
-این برآورد ساده است و جایگزین تحلیل صورت‌های مالی، محدودیت محصول یا تصمیم تأمین‌کننده مالی نیست.
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
